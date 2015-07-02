@@ -1,17 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Simply Grey"
-date:   2013-12-23 00:18:23 
-categories: simplygrey
+title:  "Developer Portal is Now Online!"
+date:   2015-07-01 19:12:30 +0800
+categories: announcement
 ---
-SimplyGrey is a simple, easy to use theme for Jekyll that compromises of mainly grey colours. A lot of people enjoy the simplistic look of grey and also find it easier to read.
+We would like to announce the availability of our SDK Portal. Hopefully we could help you build that stellar app through the tools we will provide soon!
 
-## Why use Simply Grey?
-There are lots of reasons why I think you should use Simply Grey but I will list the main ones that I believe are more of benefit to you, the user.
-
-+	<em>Easy to use and setup</em> - Jekyll has a huge range of documentation to get you started writing posts and the Simply Grey theme makes your blog look beautiful.
-+	<em>Easy configuration</em> - I developed this theme in order to be as customisable as possible. If you want to add more links to the navigation bar, all you have to do is edit the _config.yaml file and the `urls` part of it.
-+	<em>You can change it</em> - After being released with the MIT license (like Jekyll itself) you are free to change and basically do anything you want to this theme provided you keep the copyright notice in the files and distribute the license with it. 
+We would like to thank the Jekyll development team for sharing tools that allows us to build this developer portal.
 
 ## Jekyll
 Jekyll is a static site generator developed in ruby that generates websites from markdown and many other formats. The benefit of this is that you can have a highly customisable blog where you can generate posts by writing easy markdown code whilst still retaining the small memory imprint that Jekyll has. 
@@ -62,3 +57,6 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
+
+
+Stay tunes for more updates!
