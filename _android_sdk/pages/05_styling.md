@@ -1,5 +1,5 @@
 ---
 layout: page
 title:  "Custom Styling"
-categories: ios-sdk
+categories: android-sdk
 ---
