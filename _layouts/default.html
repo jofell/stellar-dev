@@ -26,7 +26,7 @@
         <h1>{{ site.name }}</h1>
 				
 				<strong>navigation</strong><br />
-				<a href="/">home</a> <br />
+				<a href="{{site.baseurl}}">home</a> <br />
 				{% for i in site.urls %}
 					<a class="about" href="{{ i.url }}">{{ i.text }}</a><br />
 				{% endfor %}
