@@ -4,23 +4,34 @@ layout: default
 
 <div id="home">
   <h1>Welcome Developers!</h1>
-  <p>Lorem ipsum dolor</p>
+  <p>This portal is the central resource for all StellarLoyalty Development. You will find here documentation and guides that will help developers build stunning loyalty applications built on top of the StellarLoyalty infrastructure.</p>
 
-  <h4>iOS SDK Resources</h4>
+  <p>StellarLoyalty provides tools to get developers build applications rapidly. We provide platform-specific SDKs that will seamlessly connect to our web services.</p>
+
+  <div>
+    <p style="text-alignment:center;">
+      <i class="fa fa-globe hero-icon"></i>
+      <i class="fa fa-mobile hero-icon"></i>
+      <i class="fa fa-desktop hero-icon"></i>
+      <i class="fa fa-laptop hero-icon"></i>
+    </p>
+  </div>
+
+  <h4><i class="fa fa-apple"></i>&nbsp; iOS SDK Resources</h4>
   <ul class="posts">
     {% for post in site.ios_sdk %}
       <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-  <h4>Android SDK Resources</h4>
+  <h4><i class="fa fa-android"></i>&nbsp; Android SDK Resources</h4>
   <ul class="posts">
     {% for post in site.android_sdk %}
       <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-  <h4>Javascript SDK Resources</h4>
+  <h4><i class="fa fa-code"></i> Javascript SDK Resources</h4>
   <ul class="posts">
     {% for post in site.js_sdk %}
       <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
