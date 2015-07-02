@@ -28,7 +28,7 @@
 				<strong>navigation</strong><br />
 				<a href="/">home</a> <br />
 				{% for i in site.urls %}
-					<a class="about" href="{{site.baseurl}}/{{ i.url }}">{{ i.text }}</a><br />
+					<a class="about" href="{{ i.url }}">{{ i.text }}</a><br />
 				{% endfor %}
 				
 				{% if site.about %}
