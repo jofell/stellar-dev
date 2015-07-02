@@ -3,7 +3,10 @@ markdown: redcarpet
 pygments: true
 github: https://www.github.com/LoyalSphere
 baseurl: /stellar-dev
-about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
+about: >
+       This is a portal for all developer resources that can be used to
+       create stunning loyalty applications using the StellarLoyalty Service.
+
 urls:
     - text: github
       url: https://github.com/LoyalSphere
