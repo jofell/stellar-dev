@@ -1,7 +1,8 @@
 name: Developer Resource
 markdown: redcarpet
 pygments: true
-github: https://www.github.com/exaem
+github: https://www.github.com/LoyalSphere
+baseurl: /stellar-dev
 about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
 urls:
     - text: github
