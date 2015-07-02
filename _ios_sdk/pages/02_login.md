@@ -17,19 +17,19 @@ Also, the `SLLoginView` class already has builtin mechanisms to catch login even
 
 #### Signup View ####
 
-![SLLoginView Signup Screen](/img/sdk/ios/login/SLLoginViewSample1.png)
+![SLLoginView Signup Screen]({{site.baseurl}}/img/sdk/ios/login/SLLoginViewSample1.png)
 
 #### Normal Login View ####
 
-![SLLoginView Signup Screen](/img/sdk/ios/login/SLLoginViewSample2.png)
+![SLLoginView Signup Screen]({{site.baseurl}}/img/sdk/ios/login/SLLoginViewSample2.png)
 
 #### Social Login / Signup View ####
 
-![SLLoginView Signup Screen](/img/sdk/ios/login/SLLoginViewSample3.png)
+![SLLoginView Signup Screen]({{site.baseurl}}/img/sdk/ios/login/SLLoginViewSample3.png)
 
 #### Showing Swipe View Between Normal and Social Login / Signup View ####
 
-![SLLoginView Signup Screen](/img/sdk/ios/login/SLLoginViewSample4.png)
+![SLLoginView Signup Screen]({{site.baseurl}}/img/sdk/ios/login/SLLoginViewSample4.png)
 
 
 
@@ -77,7 +77,7 @@ Then, add to your delegate a typical UIApplicationDelegate method called `applic
 
 Now that we're finished filling up the delegate, let's proceed to editing your applictaion's info inside XCode. Go to your project's detail view (this can be achieved by clicking on the XCode Project icon on the uppermost part of the project's tree view). Then choose the "Info" tab / label. You should be able to see a screenshot like so:
 
-![SLLoginView Project Info](/img/sdk/ios/login/SLLoginViewPrep1.png)
+![SLLoginView Project Info]({{site.baseurl}}/img/sdk/ios/login/SLLoginViewPrep1.png)
 
 #### Adding Facebook Login Support
 
@@ -103,9 +103,9 @@ For Gooogle+ Login, the only entry needed in the Target info is to add a `URL ty
 ### Using Storyboard
 
 1. Create a new `UIViewController` class from XCode. Give it an appropriate name. For this documentation's purpose, let's name it as `EXLoginViewController`.
-2. Insert a new View Controller on your Storyboard. Make sure you use your just-created View Controller for its class type. See figure below. <br />![SLLoginView Screenshot 1](/img/sdk/ios/login/SLLoginView1.png)
-3. Add a `UIVIew` inside the view controller's content view like in the figure below. Modify its custom class as `SLLoginView` <br /> ![SLLoginView Screenshot 2](/img/sdk/ios/login/SLLoginView2.png)
-4. Create a connection (Ctrl-drag) between the newly-created `UIView` (`SLLoginView`) with the view controller (as shown by the figure below) and assign the `SLLoginView` instance's delegate to the current view controller. <br /> ![SLLoginView Screenshot 2](/img/sdk/ios/login/SLLoginView3.png)
+2. Insert a new View Controller on your Storyboard. Make sure you use your just-created View Controller for its class type. See figure below. <br />![SLLoginView Screenshot 1]({{site.baseurl}}/img/sdk/ios/login/SLLoginView1.png)
+3. Add a `UIVIew` inside the view controller's content view like in the figure below. Modify its custom class as `SLLoginView` <br /> ![SLLoginView Screenshot 2]({{site.baseurl}}/img/sdk/ios/login/SLLoginView2.png)
+4. Create a connection (Ctrl-drag) between the newly-created `UIView` (`SLLoginView`) with the view controller (as shown by the figure below) and assign the `SLLoginView` instance's delegate to the current view controller. <br /> ![SLLoginView Screenshot 2]({{site.baseurl}}/img/sdk/ios/login/SLLoginView3.png)
 5. Assign the `SLLoginView` instance as an outlet of the view controller, and name it appropriately. For the purposes of this documentation, let's name the outlet as `loginView`. Don't forget to import `<StellarSDK/SLLoginView.h>` on your view controller's header file.
 6. Set which login interfaces should be used in the `SLLoginView` instance. You can set it to the following values:
     - `SLLoginConfigRegular` which gives you the regular login interface
