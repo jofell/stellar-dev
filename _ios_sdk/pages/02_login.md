@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Login View Pager"
+title:  "Building the Login Interface"
 categories: ios-sdk
 ---
 
