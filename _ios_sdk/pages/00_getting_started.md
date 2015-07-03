@@ -53,3 +53,5 @@ $ pod install
 > Cocoapod unless you've added the private podspec as stated in the section 
 > above. The `StellarSDK` pod is not available in the main Cocoapod line of
 > libraries.
+
+After the all of this is done, you can now navigate to the project's folder via Finder, and open the file called `<Project Name>.xcworkspace` by double-clicking on it. Notice that the file extension is now `.xcworkspace`, meaning from this point, you will start using the XCode Workspace file instead of the XCode Project file whenever you're editing files for your iOS App.
