@@ -139,24 +139,25 @@ self.loginView.logConfig = SLLoginConfigDefault
 
 From your `UIViewController` instance, you can follow through creating a normal view like so under the `viewDidLoad:` method:
 
-    - (void)viewDidLoad {
-    
-      [super viewDidLoad];
-      
-      // Do any additional setup after loading the view.
-      
-      // Instantiate a SLLoginView object. You can set different frame settings
-      self.loginView = [[SLLoginView alloc] initWithFrame:self.view.bounds];
-      
-      // Set the configurations. Check the documentation
-      self.loginView.logConfig = SLLoginConfigDefault;
-      
-      // Don't forget to set the delegate to the current view controller
-      self.loginView.delegate = self;
-      
-      [self.view addSubview:self.loginView];
-  }
+{% highlight objective-c %}
+- (void)viewDidLoad {
 
+  [super viewDidLoad];
+  
+  // Do any additional setup after loading the view.
+  
+  // Instantiate a SLLoginView object. You can set different frame settings
+  self.loginView = [[SLLoginView alloc] initWithFrame:self.view.bounds];
+  
+  // Set the configurations. Check the documentation
+  self.loginView.logConfig = SLLoginConfigDefault;
+  
+  // Don't forget to set the delegate to the current view controller
+  self.loginView.delegate = self;
+  
+  [self.view addSubview:self.loginView];
+}
+{% endhighlight %}
 
 You can set it to the following values:
 
@@ -181,39 +182,44 @@ Once the `SLLoginView` object / instance has been set, we are now supposed to wa
 
 After assigning the holding view controller as the delegate of the `SLLoginView` instance (**NOTE:** The delegate should extend the protocol `SLLoginViewDelegate`), create a method called `loginView:didLoginWithResults:andError:` within your view controller, like so:
 
-  -(void)loginView:(SLLoginView *)logView didLoginWithResults:(NSDictionary *)results
-          andError:(NSError *)error
-  {
-      // This method gets triggered when something happens in the login view
-      
-  }
+{% highlight objective-c %}
+-(void)loginView:(SLLoginView *)logView didLoginWithResults:(NSDictionary *)results
+        andError:(NSError *)error
+{
+    // This method gets triggered when something happens in the login view
+    
+}
+{% endhighlight %}
 
 To handle the results of the login (however the method, whether it's via regular login, a signup, or a social media login), just check whether the results give you a success value of true or whether the error is nil. Usually I go the latter:
 
-  -(void)loginView:(SLLoginView *)logView didLoginWithResults:(NSDictionary *)results
-          andError:(NSError *)error
-  {
-      // This method gets triggered when something happens in the login view
-      if (error == nil)
-      {
-          // Celebrate this momentous event by popping an alert view
-          UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success!"
-                                                            message:@"I finally made SLLoginView work!"
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-           [alert show];
-      }
-      
-  }
+{% highlight objective-c %}
+-(void)loginView:(SLLoginView *)logView didLoginWithResults:(NSDictionary *)results
+        andError:(NSError *)error
+{
+    // This method gets triggered when something happens in the login view
+    if (error == nil)
+    {
+        // Celebrate this momentous event by popping an alert view
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success!"
+                                                          message:@"I finally made SLLoginView work!"
+                                                         delegate:nil
+                                                cancelButtonTitle:@"OK"
+                                                otherButtonTitles:nil];
+         [alert show];
+    }
+    
+}
+{% endhighlight %}
 
 The results dictionary bears the following structure:
 
+{% highlight objective-c %}
     @{
         @"sucess"        : @YES,
         @"access_token"  : @"<access token retrieved from Stellar Loyalty OAuth Service>"
     }
-
+{% endhighlight %}
 
 ## Related Classes
 
