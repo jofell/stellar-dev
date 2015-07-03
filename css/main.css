@@ -7,6 +7,17 @@ body {
     color: #424242;
 }
 
+@media (min-width: 500px) {
+  .container {
+    max-width: 460px;
+  }
+
+  p > img, li > img {
+    max-width: 280px;
+  }
+}
+
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
