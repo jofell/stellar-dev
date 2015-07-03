@@ -49,3 +49,7 @@ pod 'StellarSDK'
 $ pod install
 {% endhighlight %} Downloading the Stellar Loyalty iOS SDK may take a long while before completion, so please make sure to wait until the command above finishes.
 
+> Please take note that you will not be able to download the `StellarSDK`
+> Cocoapod unless you've added the private podspec as stated in the section 
+> above. The `StellarSDK` pod is not available in the main Cocoapod line of
+> libraries.
