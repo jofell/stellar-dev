@@ -5,7 +5,7 @@ github: https://www.github.com/LoyalSphere
 baseurl: /stellar-dev
 about: >
        This is a portal for all developer resources that can be used to
-       create stunning loyalty applications using the StellarLoyalty Service.
+       create stunning loyalty applications using the Stellar Loyalty Service.
 paginate: 10
 paginate_path: "/blog/page:num/"
 urls:
