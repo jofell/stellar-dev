@@ -55,3 +55,7 @@ $ pod install
 > libraries.
 
 After the all of this is done, you can now navigate to the project's folder via Finder, and open the file called `<Project Name>.xcworkspace` by double-clicking on it. Notice that the file extension is now `.xcworkspace`, meaning from this point, you will start using the XCode Workspace file instead of the XCode Project file whenever you're editing files for your iOS App.
+
+After opening the XCode Workspace that is just created, you can learn all [about the project structure by going to this page]({{site.baseurl}}/ios_sdk/pages/01_project_anatomy.html).
+
+**Next**: [XCode Workspace Project Anatomy]({{site.baseurl}}/ios_sdk/pages/01_project_anatomy.html)
