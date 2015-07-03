@@ -26,7 +26,7 @@ Cocoapods allow private pods, and Stellar Loyalty's iOS SDK is an example of a p
 Once you get hold of our private Podspec's repository (a place where all the Stellar Loyalty iOS SDK libraries are enumerated), you can add the URL we will provide to your local pod repositories. You can do so by invoking this command in Terminal:
 
 {% highlight bash %}
-$ pod repo add stellar-sdk <podspec URL that we wll send you>
+$ pod repo add stellar-sdk <podspec URL that we will send you>
 {% endhighlight %}
 
 From then you can wait until the podspec repository gets synchronized into your machine.
