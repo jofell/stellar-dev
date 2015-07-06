@@ -45,7 +45,11 @@ $ pod init
 4. Modify the `Podfile` to add Stellar Loyalty's SDK by appending the following line at the bottom of the file (you can use the editor of your choice):{% highlight bash %}
 pod 'StellarSDK'
 {% endhighlight %}
-5. Start downloading the Stellar Loyalty iOS SDK by invoking the following command: {% highlight bash %}
+5. Add the following lines at the top of the `Podfile` to make sure it's able to get `StellarSDK` from our source:{% highlight bash %}
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/LoyalSphere/StellarSpecs.git'
+{% endhighlight %}
+6. Start downloading the Stellar Loyalty iOS SDK by invoking the following command: {% highlight bash %}
 $ pod install
 {% endhighlight %} Downloading the Stellar Loyalty iOS SDK may take a long while before completion, so please make sure to wait until the command above finishes.
 
