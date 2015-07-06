@@ -10,6 +10,7 @@ Every Cocoapods-enabled project will be structured as an XCode Workspace consist
 
 ![]({{site.baseurl}}/img/sdk/ios/project_anatomy/project_folder_structure.png)
 
+![]({{site.baseurl}}/img/sdk/ios/project_anatomy/project_folder_workspace.png)
 
 ## The Main Application XCode Project
 
