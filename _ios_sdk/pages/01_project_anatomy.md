@@ -23,4 +23,16 @@ You can create your own views, controllers, and even respond to application even
 
 Similarly, if the main project depends on existing iOS 3rd-party libraries, such libraries can be checked if they are supported or can be installed from [cocoapods.org](http://cocoapods.org).
 
+For example, if the main project depends on the Parse.com's ParseUI library, you can do so by adding the following line inside the `Podfile`:
+
+{% highlight bash %}
+pod 'ParseUI', '~> 1.1'
+{% endhighlight %}
+
+You can also add more libraries from cocoapods depending on your application's needs. After you've added all libraries you need, you can then invoke the following command from terminal:
+
+{% highlight bash %}
+$ pod install
+{% endhighlight %}
+
 ## The Pods Compilation XCode Project
