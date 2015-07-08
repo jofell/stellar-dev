@@ -14,6 +14,13 @@ Every Cocoapods-enabled project will be structured as an XCode Workspace consist
 
 ## The Main Application XCode Project
 
-As you create your own iOS Application, and named it as such (for example, `MyLoyalty` from above screenshots), there will be a project named so for you to build your custom application. You can create your own views, controllers, and even respond to application events using your own Application Delegate from the files within here.
+After finishing steps involving cocoapod setup, an XCode Workspace file is created. The cocoapod-generated `.xcworkspace` includes your previously-created iOS Application Project (for example, `MyLoyalty` from above screenshots). This project is your Main Application XCode Project.
+
+You can create your own views, controllers, and even respond to application events using your own Application Delegate from the files within here. The Main Application XCode Project can be treated as a regular iOS App Workspace.
+
+> The Main Application XCode Project can be treated as a regular iOS App
+> Workspace.
+
+Similarly, if the main project depends on existing iOS 3rd-party libraries, such libraries can be checked if they are supported or can be installed from [cocoapods.org](http://cocoapods.org).
 
 ## The Pods Compilation XCode Project
