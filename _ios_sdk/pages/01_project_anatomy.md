@@ -36,3 +36,7 @@ $ pod install
 {% endhighlight %}
 
 ## The Pods Compilation XCode Project
+
+Aside from the Main application xcode project, the other project inside the XCode Workspace is the Pods compilation. Cocoapods helps developers integrate libraries into their projects by making targets and configurations that would allow incorporation of these 3rd-party libraries, but still isolating these libraries from your main code.
+
+Cocoapods organizes these libraries into their own corresponding folders within the `Pods` directory. 
