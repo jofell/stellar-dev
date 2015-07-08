@@ -39,4 +39,9 @@ $ pod install
 
 Aside from the Main application xcode project, the other project inside the XCode Workspace is the Pods compilation. Cocoapods helps developers integrate libraries into their projects by making targets and configurations that would allow incorporation of these 3rd-party libraries, but still isolating these libraries from your main code.
 
-Cocoapods organizes these libraries into their own corresponding folders within the `Pods` directory. 
+Cocoapods organizes these libraries into their own corresponding folders within the `Pods` directory. Normally, there is no need to touch anything inside the `Pods` XCode Project since these libraries are being maintained by the library maintainers, so it will be wise not to modify or move files around the project.
+
+> Normally, there is no need to touch anything inside the `Pods` XCode Project 
+> since these libraries are being maintained by the library maintainers...
+
+For more advanced developers, though, modifying certain parts of a Pod library like a Pod's assets or `.xib` file can be essential to customize look and feel of the Pod's widgets, resulting to a consistent user interface design. A word of caution for advanced Pod modifications is that always make sure that the Pod modifications are committed to an SCM (Source Code Management) like git so that when sharing the XCode Workspace, customizations will also be applied to a newly cloned working copy.
