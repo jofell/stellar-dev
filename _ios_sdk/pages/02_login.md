@@ -4,7 +4,7 @@ title:  "Building the Login Interface"
 categories: ios-sdk
 ---
 
-This is the universal login and signup view you can attach to your view controllers content views. `SLLoginView` also has a view delegate protocol that when used to any object, will be able to subscribe to login or signup events made by this widget.
+A StellarSDK object, called `SLLoginView`, is the universal login and signup view you can attach to your view controllers content views. `SLLoginView` also has a view delegate protocol that when used to any object, will be able to subscribe to login or signup events made by this widget.
 
 `SLLoginView` not only has a view for the email and password fields, it also has buttons for select social media login schemes for the following: 
 
@@ -215,10 +215,10 @@ To handle the results of the login (however the method, whether it's via regular
 The results dictionary bears the following structure:
 
 {% highlight objective-c %}
-    @{
-        @"sucess"        : @YES,
-        @"access_token"  : @"<access token retrieved from Stellar Loyalty OAuth Service>"
-    }
+@{
+    @"sucess"        : @YES,
+    @"access_token"  : @"<access token retrieved from Stellar Loyalty OAuth Service>"
+}
 {% endhighlight %}
 
 ## Related Classes
