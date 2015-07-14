@@ -10,7 +10,7 @@ Before using any view controller, it should be noted first that for these view c
 
 ## `SLViewController`
 
-All view controllers exposed by the Stellar Loyalty iOS SDK are descendants of a super-class named `SLViewController`. 
+All view controllers exposed by the Stellar Loyalty iOS SDK are descendants of a super-class named `SLViewController`. The SLViewContoller provides basic helpers or convenience methods for regular `SLViewController` functionalities. More of this can be seen here: [`SLViewController`]({{site.baseurl}}).
 
 ## Anatomy of a Stellar Loyalty View Controller
 
