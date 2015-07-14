@@ -23,4 +23,8 @@ The image beliow dissects a typical view controller's parts. As you can see, the
 
 ### Navigation Bar
 
-Having a navigation bar inside a Stellar Loyalty View Controller
+Having a navigation bar inside a Stellar Loyalty View Controller means the basic SDK View Controller depends on an encapsulating Navigation Controller (`UINavigationController`). That means whenever you have an iOS app being developed, either you use a navigation controller as your starting view controller (as illustrated below):
+
+![]({{site.baseurl}}/img/sdk/ios/view_controllers/view_controller_navcontroller.png)
+
+or 
