@@ -62,4 +62,22 @@ After the all of this is done, you can now navigate to the project's folder via 
 
 After opening the XCode Workspace that is just created, you can learn all [about the project structure by going to this page]({{site.baseurl}}/ios_sdk/pages/01_project_anatomy.html).
 
+## Using Cocoapod to Use the iOS Stellar Loyalty SDK sample 
+
+![]({{site.baseurl}}/img/sdk/ios/project_anatomy/project_folder_stellarsdk_demo.png)
+
+The image above illustrates Stellar Loyalty iOS SDK's Demo App running on a Simulator. It is possible to run this demo application simply by using Cocoapod's `try` feature, which allows developers to run an application and try how the pod, when integrated, works in a full application.
+
+Start by invoking the following command:
+
+{% highlight bash %}
+$ pod try StellarSDK
+{% endhighlight %}
+
+Wait for the entire SDK and demo application to be downloaded, and then an XCode Workspace should be opened by XCode. Once the Stellar Loyalty SDK Demo Workspace has been opened, invoke `Cmd + R` in XCode and the simulator shows the Stellar Demo app shown above.
+
+As can be seen in the figure, the application demonstrates how each of the Stellar Loyalty iOS SDK features work, and they can be started by tapping on any of the front table view's labels. Features are packaged in view controllers, and more is discussed in the section [Using Ready-made View Controllers]({{site.baseurl}}/ios_sdk/pages/03_view_controllers.html)
+
+But for the meantime, you can play around the application, but make sure to start logging in first.
+
 **Next**: [XCode Workspace Project Anatomy]({{site.baseurl}}/ios_sdk/pages/01_project_anatomy.html)
