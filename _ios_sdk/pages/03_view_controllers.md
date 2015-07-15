@@ -27,4 +27,12 @@ Having a navigation bar inside a Stellar Loyalty View Controller means the basic
 
 ![]({{site.baseurl}}/img/sdk/ios/view_controllers/view_controller_navcontroller.png)
 
-or 
+or, using a regular modal presentation for those apps that don't use the navigation view controller as root view controller:
+
+{% highlight objective-c %}
+UINavigationController *navigationController = [[UINavigationController alloc] 
+                                    initWithRootViewController:addController];
+[self presentViewController:navigationController animated:YES completion: nil];
+{% endhighlight %}
+
+From the example above, assume that `addController` is a variable representing a just-initialized `SLViewController`.
