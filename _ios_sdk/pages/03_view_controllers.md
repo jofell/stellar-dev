@@ -35,4 +35,5 @@ UINavigationController *navigationController = [[UINavigationController alloc]
 [self presentViewController:navigationController animated:YES completion: nil];
 {% endhighlight %}
 
-From the example above, assume that `addController` is a variable representing a just-initialized `SLViewController`.
+From the example above, assume that `addController` is a variable representing a just-initialized `SLViewController`. Also if you're going to use the `SLViewController` instances in other view controllers, just make sure there is a navigation controller encapsulating them.
+
