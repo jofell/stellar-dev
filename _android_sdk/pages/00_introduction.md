@@ -1,5 +1,6 @@
 ---
 layout: page
-title:  "Project Structure Tour"
+title:  "Introduction"
 categories: android-sdk
 ---
+

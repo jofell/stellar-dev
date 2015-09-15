@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "Using Ready-made Activities"
+title:  "Calling the Stellar API"
 categories: android-sdk
 ---

@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "SDK Class Reference"
+title:  "Other Core SDK Features"
 categories: android-sdk
 ---
