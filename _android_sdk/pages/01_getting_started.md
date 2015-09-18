@@ -60,4 +60,4 @@ After a successful `GET` request, the `StellarProfile` object may be retrieved v
 
 --------
 
-**Next:** [Calling the Stellar API]({{site.baseurl}}/android_sdk/pages/02_calling_stellar_api.html)
+**Next:** [Sample App Workflow]({{site.baseurl}}/android_sdk/pages/02_sample_app_workflow.html)
