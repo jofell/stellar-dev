@@ -27,14 +27,9 @@ Some of the libraries included in the UI SDK are:
 * [Glide](https://github.com/bumptech/glide) - an image loading and caching library for Android
 * [ZXing](https://github.com/zxing/zxing) - an open-source library for multi-format 1D/2D barcode images
 
- 
+## Getting Access
 
-
-## Deployment
-
-The Stellar Android SDK source is currently deployed via [Github](https://github.com/LoyalSphere/stellar-android-sdk). To be able to get access to the Android SDK, please email us at [developer@stellarloyalty.com](developer@stellarloyalty.com).
-
-Future plans for the SDK include the deployment of the SDK via [jCenter](https://bintray.com/bintray/jcenter).
+To get access to the Android SDK please contact [Stellar Loyalty, Inc](http://stellarloyalty.com/).
 
 --------
 
