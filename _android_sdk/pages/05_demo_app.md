@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "Using Ready-made Activities"
+title:  "Using the Demo App"
 categories: android-sdk
 ---

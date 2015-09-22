@@ -1,0 +1,48 @@
+@startuml
+
+title Stellar Module - Class Diagram
+
+class StellarModule
+class Controller {
+    +getStellarApiData()
+    +refreshStellarApiData()
+}
+class Listener {
+    +success(StellarData data)
+    +failure(String error)
+}
+
+StellarModule +.. Controller
+StellarModule +.. Listener
+
+class StellarModel {
+    StellarData data
+    +getData()
+}
+
+class StellarData {
+    int id
+    +getId()
+}
+
+StellarModel *.. StellarData
+
+class StellarProfile
+class StellarProfile.Model
+class StellarProfile.Data
+class ProfileReceivedListener
+StellarModule <|.. StellarProfile
+StellarProfile +.. StellarProfile.Model
+StellarProfile +.. ProfileReceivedListener
+StellarProfile.Model *.. StellarProfile.Data
+
+class StellarOffers
+class StellarOffers.Model
+class StellarOffers.Data
+class OffersReceivedListener
+StellarModule <|.. StellarOffers
+StellarOffers +.. StellarOffers.Model
+StellarOffers +.. OffersReceivedListener
+StellarOffers.Model *.. StellarOffers.Data
+
+@enduml

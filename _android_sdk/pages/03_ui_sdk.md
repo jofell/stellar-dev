@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Starting with a Login Activity"
+title:  "Using the UI SDK"
 categories: android-sdk
 ---
 
