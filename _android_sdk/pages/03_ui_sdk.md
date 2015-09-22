@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Using Ready-made View Classes"
+title:  "Using the UI SDK"
 categories: android-sdk
 ---
 
