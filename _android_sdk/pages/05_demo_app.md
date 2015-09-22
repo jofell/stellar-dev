@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "Other Core SDK Features"
+title:  "Using the Demo App"
 categories: android-sdk
 ---

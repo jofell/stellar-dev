@@ -60,4 +60,4 @@ After a successful `GET` request, the `StellarProfile` object may be retrieved v
 
 --------
 
-**Next:** [Sample App Workflow]({{site.baseurl}}/android_sdk/pages/02_sample_app_workflow.html)
+**Next:** [Using the Core SDK]({{site.baseurl}}/android_sdk/pages/02_core_sdk.html)

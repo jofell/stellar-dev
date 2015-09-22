@@ -90,4 +90,4 @@ After a user session has ended, you need to logout the current user and remove *
 
 --------
 
-**Next:** [Ready-made View Classes]({{site.baseurl}}/android_sdk/pages/03_view_classes.html)
+**Next:** [Using the UI SDK]({{site.baseurl}}/android_sdk/pages/03_ui_sdk.html)
